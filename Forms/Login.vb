@@ -12,4 +12,8 @@
         End If
 
     End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        MessageBox.Show("MALAY KO SAU", "Hint", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    End Sub
 End Class
